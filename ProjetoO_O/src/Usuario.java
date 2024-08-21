@@ -15,7 +15,7 @@ public class Usuario {
     private String nome;
     private String email;
     private int idade;
-    private String endereço;
+    private String endereco;
 
     //construtor da classe usuario
     //inicialização dos valores dos atributos
@@ -23,11 +23,11 @@ public class Usuario {
         this("","",0,"");
     }
 
-    public Usuario(String nome, String email, int idade, String endereço) {
+    public Usuario(String nome, String email, int idade, String endereco) {
         this.nome = nome;
         this.email = email;
         this.idade = idade;
-        this.endereço = endereço;
+        this.endereco = endereco;
     }
     // enclapsulamento dos atributos
 
@@ -55,12 +55,12 @@ public class Usuario {
         this.idade = idade;
     }
 
-    public String getEndereço() {
-        return endereço;
+    public String getEndereco() {
+        return endereco;
     }
 
-    public void setEndereço(String endereço) {
-        this.endereço = endereço;
+    public void setEndereco(String endereco) {
+        this.endereco = endereco;
     }
     
     
@@ -79,6 +79,13 @@ public class Usuario {
         System.out.println("Digite o endereço do cliente");
         setEndereco(leia.next());
     }
+    public void mostrarDados(){
+        System.out.println("\n Dados do usuario \n Nome:" + getNome() + 
+                "\n E-mail: " + getEmail() +
+                "\n Idade: " + getIdade()+ 
+                "\n Endereço: " + getEndereco() );
+    }
+    
     
     
     
