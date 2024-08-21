@@ -67,7 +67,19 @@ public class Usuario {
     // metodos da classe usuario
     public void guardarDados(){
         Scanner leia = new Scanner(System.in);
+        System.out.println("Digite o nome do usuario: ");;
+        setNome(leia.next());
+        
+        System.out.println("Digite o email do usuario");
+        setEmail(leia.next());
+        
+        System.out.println("Digite a idade do usuario");
+        setIdade(leia.nextInt());
+        
+        System.out.println("Digite o endereço do cliente");
+        setEndereco(leia.next());
     }
+    
     
     
 }
