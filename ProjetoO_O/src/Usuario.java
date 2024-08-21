@@ -78,8 +78,7 @@ public class Usuario {
         
         System.out.println("Digite a idade do usuario");
         setIdade(leia.nextInt());
-        
-        
+                
     }
     public void mostrarDados(){
         System.out.println("\n Dados do usuario \n Nome:" + getNome() + 
