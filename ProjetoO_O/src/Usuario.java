@@ -73,11 +73,13 @@ public class Usuario {
         System.out.println("Digite o email do usuario");
         setEmail(leia.next());
         
+        System.out.println("Digite o endereço do cliente");
+        setEndereco(leia.nextLine());
+        
         System.out.println("Digite a idade do usuario");
         setIdade(leia.nextInt());
         
-        System.out.println("Digite o endereço do cliente");
-        setEndereco(leia.next());
+        
     }
     public void mostrarDados(){
         System.out.println("\n Dados do usuario \n Nome:" + getNome() + 
