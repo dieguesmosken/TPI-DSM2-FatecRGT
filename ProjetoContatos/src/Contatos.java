@@ -66,7 +66,7 @@ public class Contatos {
     
     }
     public void mostrarDados(){
-        System.out.println("Nome: "+ getNome() + "\nTelefone: "+ getTelefone() + "\nCidade: "+ getCidade() + "\nEndereco: "+ getEndereco());
+        System.out.println("\nNome: "+ getNome() + "\nTelefone: "+ getTelefone() + "\nCidade: "+ getCidade() + "\nEndereco: "+ getEndereco());
 
     }
 

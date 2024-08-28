@@ -13,9 +13,9 @@ public class Principal {
      * @param args the command line arguments
      */
     public static void main(String[] args) {
-        Contatos contato = new Contatos();
-        contato.cadastrarDados();
-        contato.mostrarDados();
+        Contatos cont = new Contatos();
+        cont.cadastrarDados();
+        cont.mostrarDados();
     }
     
 }
